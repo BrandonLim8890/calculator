@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator div {
+    border: black solid 1px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.calculator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    background-color: yellow;
+    display: grid;
+    grid-template-areas: 
+    "display display display display"
+    "seven eight nine divide"
+    "four five six multiply"
+    "one two three subtract"
+    "zero add add equals";
+}
+
+.display {
+    grid-area: display;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.divie {
+    grid-area: divide;
+}
+
+.multiply {
+    grid-area: multiply;
+}
+
+.subtract {
+    grid-area: subtract;
+}
+
+.add {
+    grid-area: add;
+}
+
+.equals {
+    grid-area: equals;
+}
